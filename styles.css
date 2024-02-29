@@ -213,7 +213,7 @@ justify-content:space-around;
 
 
 
-@media screen and (min-width: 400px) and (max-width: 1000px) {
+@media screen and (min-width: 350px) and (max-width: 1000px) {
  .quadre-text{
 	height:4000px;
 	font-size:22px;
@@ -221,7 +221,16 @@ justify-content:space-around;
   
 }
 
-  
+@media screen and (min-width: 350px) and (max-width: 1000px) and (orientation:landscape){
+  .quadre-text{
+	height:2600px;
+	font-size:22px;
+}
+
+.footer{
+	top:93vh;
+	width:98vw;
+}
 }
 
 @media screen and (min-width: 1000px) and (orientation:portrait){
