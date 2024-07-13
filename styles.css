@@ -564,7 +564,7 @@ object-fit:cover;
 
 
 .joc{
-	width:100vw;
+	width:80vw;
 	height:var(--alturaJocM);
 	display:flex;
 	justify-content:center;
