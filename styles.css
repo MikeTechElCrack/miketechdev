@@ -574,7 +574,6 @@ object-fit:cover;
 	position:absolute;
 	z-index:10;
 	height:100vw;
-	object-fit:cover;
 }
 
 .img-joc{
