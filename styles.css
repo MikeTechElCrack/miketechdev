@@ -882,9 +882,6 @@ object-fit:cover;
 	height:var(--alturaHeader);
 }
 
-.logo{
-	height:20vh;
-}
 
 
 
@@ -904,8 +901,13 @@ object-fit:cover;
 	height:var(--alturaQuiSoc);
 }
 
+.logo{
+	position:absolute;
+	height:20vh;
+	z-index:100;
+}
 
-
+	
 .feinaText p{
 	letter-spacing:0.1em;
 	line-height:5vh;
