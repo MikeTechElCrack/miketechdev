@@ -883,7 +883,9 @@ object-fit:cover;
 }
 
 
-
+.logo{
+	width:20vh;
+}
 
 
 /*Qui Sóc*/
@@ -1155,10 +1157,10 @@ object-fit:cover;
 
 
 .joc{
-	width:100vw;
 	height:var(--alturaJoc);
 	display:flex;
 	justify-content:center;
+	object-fit:cover;
 }
 
 .img-fons-joc{
