@@ -254,7 +254,7 @@ margin-top:5vh;
 
 .logo{
 	position:absolute;
-	height:20vh;
+	height:10vh;
 	z-index:100;
 }
 
@@ -882,7 +882,9 @@ object-fit:cover;
 	height:var(--alturaHeader);
 }
 
-
+.logo{
+	height:20vh;
+}
 
 
 
