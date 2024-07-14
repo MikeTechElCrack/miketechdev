@@ -571,7 +571,7 @@ object-fit:cover;
 }
 
 .img-fons-joc{
-	width:400vw;
+	width:100vw;
 	height:var(--alturaJocM);
 	position:absolute;
 	z-index:10;
