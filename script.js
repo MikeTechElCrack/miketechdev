@@ -266,3 +266,14 @@ espanyol2.onclick = function(){
 	llCatalana.style.display = "none";
 	llEspanyola.style.display = "block";
 }
+
+
+let tempsActual = new Date();
+let any = tempsActual.getFullYear();
+
+let any2 = document.querySelectorAll(".any2");
+
+
+any2.forEach((e) => {
+e.innerHTML = any;
+}
