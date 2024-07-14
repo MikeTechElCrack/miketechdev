@@ -1,6 +1,3 @@
-
-
-
 let hamburguesa = document.querySelector("#hamburguesa");
 let creu = document.querySelector("#creu");
 let nav_2 = document.querySelector("#nav-2");
@@ -276,4 +273,4 @@ let any2 = document.querySelectorAll(".any2");
 
 any2.forEach((e) => {
 e.innerHTML = any;
-}
+});
