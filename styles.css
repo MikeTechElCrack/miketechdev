@@ -572,6 +572,7 @@ object-fit:cover;
 
 .img-fons-joc{
 	width:400vw;
+	height:var(--alturaJocM);
 	position:absolute;
 	z-index:10;
 	object-fit:cover;
