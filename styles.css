@@ -78,7 +78,6 @@ body{
 	left:0;
 	height:var(--alturaNavM);
 	background-color:var(--negre);
-	align-items:center;
 	}
 	
 	.nav-1 a{
@@ -112,6 +111,7 @@ body{
 	right:4vh;
 	width:1.5rem;
 	display:flex;
+	align-self:center;
 	}
 	
 	.no{
@@ -121,6 +121,7 @@ body{
 	.foto-perfil {
 	width:20vh;
 	margin-left:3vw;
+	align-self:center;
 	}
 	
 	.enllacos{
@@ -156,11 +157,13 @@ margin-top:5vh;
 }
 
 .idioma{
+	align-self:center;
 	position:absolute;
 	right:12vh;
 	width:10vh;
 	height:4vh;
 	margin-bottom:0.5vh;
+	
 }
 
 
@@ -178,8 +181,8 @@ margin-top:5vh;
 	display:none;
 	position:absolute;
 	z-index:3000;
+	margin-top:6vh;
 	right:10vh;
-	margin-top:-3vh;
 	width:15vh;
 	height:15vh;
 }
@@ -188,8 +191,8 @@ margin-top:5vh;
 	display:none;
 	position:absolute;
 	z-index:3000;
+	margin-top:6vh;
 	right:10vh;
-	margin-top:-3vh;
 	width:15vh;
 	height:15vh;
 }
@@ -254,7 +257,7 @@ margin-top:5vh;
 
 .logo{
 	position:absolute;
-	height:10vh;
+	width:30vh;
 	z-index:100;
 }
 
@@ -855,14 +858,20 @@ object-fit:cover;
 	display:none;
 	position:absolute;
 	z-index:3000;
-	right:35vh;
-	top:7vh;
+	right:32.5vh;
+	top:8vh;
 	width:15vh;
 	height:15vh;
 }
 
 #quadreIdiomes2{
-	right:35vh;
+	display:none;
+	position:absolute;
+	z-index:3000;
+	right:32.5vh;
+	top:8vh;
+	width:15vh;
+	height:15vh;
 	
 }
 
@@ -884,7 +893,7 @@ object-fit:cover;
 
 
 .logo{
-	width:20vh;
+	width:40vh;
 }
 
 
@@ -1378,26 +1387,6 @@ object-fit:cover;
 	align-self:center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-#quadreIdiomes1{
-	top:10vh;
-}
-
-#quadreIdiomes2{
-	top:10vh;
-}
 
 .catala{
 	height:7.5vh;
