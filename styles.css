@@ -1353,7 +1353,7 @@ object-fit:cover;
 	position:absolute;
 	z-index:1000;
 	width:100vw;
-	height:100vh;
+	height:10vh;
 	background-color:var(--negreFosc);
 	color:var(--blanc);
 	font-size:1rem;
